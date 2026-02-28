@@ -25,6 +25,7 @@
 - Press the **⚡ TL;DR** button to generate a concise summary grouped by user.
 - Results open in a floating card you can dismiss.
 - Powered by HuggingFace Inference API (chat completion).
+- Uses HuggingFace's **free API tier** (see below).
 - Works on any OS: Windows, macOS, Linux.
 
 ## Installation 📦
@@ -44,7 +45,7 @@
 
 ## Configuration ⚙️
 
-The plugin requires a HuggingFace access token to call the inference API.
+The plugin requires a HuggingFace access token to call the inference API. **You can use HuggingFace's free API tier for personal use.**
 
 1. Log in to [HuggingFace](https://huggingface.co) or create an account.
 2. Visit your **Settings → Access Tokens** page.
@@ -60,6 +61,7 @@ The plugin requires a HuggingFace access token to call the inference API.
    ```
 
 > **Keep your token secret!** Anyone with it can use your HuggingFace quota.
+> **Note:** The free API tier has usage limits. For heavier use, consider upgrading your HuggingFace plan.
 
 ## Usage 🎯
 
