@@ -16,9 +16,9 @@
 
 ## Installation 📦
 
-1. Copy `ConversationSummarizer.plugin.js` into your BetterDiscord plugins folder:
+1. Copy `DiscordTLDR.plugin.js` into your BetterDiscord plugins folder:
    ```bash
-   cp ConversationSummarizer.plugin.js ~/.config/BetterDiscord/plugins/
+   cp DiscordTLDR.plugin.js ~/.config/BetterDiscord/plugins/
    ```
 2. Enable the plugin in BetterDiscord's plugin settings.
 
@@ -30,7 +30,7 @@ The plugin requires a HuggingFace access token to call the inference API.
 2. Visit your **Settings → Access Tokens** page.
 3. Click **New Token**, give it a name (e.g. "Discord TLDR"), and set scope to `Read`.
 4. Copy the generated token string.
-5. Open `ConversationSummarizer.plugin.js` and replace the placeholder:
+5. Open `DiscordTLDR.plugin.js` and replace the placeholder:
    ```javascript
    this.hfToken = "YOUR_HF_TOKEN_HERE"; // placeholder, replace with actual HF token
    ```
