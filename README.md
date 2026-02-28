@@ -16,11 +16,18 @@
 
 ## Installation 📦
 
-1. Copy `DiscordTLDR.plugin.js` into your BetterDiscord plugins folder:
+> These steps work on **Windows, macOS, and Linux** — adjust the path to your BetterDiscord plugins folder accordingly.
+
+1. Locate your BetterDiscord `plugins` directory. Common locations:
+   - **Windows:** `%appdata%\\BetterDiscord\\plugins`
+   - **macOS:** `~/Library/Application Support/BetterDiscord/plugins`
+   - **Linux:** `~/.config/BetterDiscord/plugins`
+2. Copy the `DiscordTLDR.plugin.js` file into that folder. In a terminal or shell:
    ```bash
-   cp DiscordTLDR.plugin.js ~/.config/BetterDiscord/plugins/
+   cp DiscordTLDR.plugin.js "<path-to-your-plugins-folder>"
    ```
-2. Enable the plugin in BetterDiscord's plugin settings.
+   Or simply drag & drop the file using your file manager.
+3. Open Discord, go to **User Settings → Plugins**, and toggle **Discord TL;DR** on.
 
 ## Configuration ⚙️
 
