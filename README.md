@@ -4,6 +4,18 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Platform](https://img.shields.io/badge/platform-BetterDiscord-purple)
+
+---
+
+## 📚 Table of Contents
+- [Features](#features-)
+- [Installation](#installation-)
+- [Configuration](#configuration-)
+- [Usage](#usage-)
+- [TODO](#todo-)
+- [Notes](#notes-)
+- [License](#license-)
 
 ---
 
@@ -13,6 +25,7 @@
 - Press the **⚡ TL;DR** button to generate a concise summary grouped by user.
 - Results open in a floating card you can dismiss.
 - Powered by HuggingFace Inference API (chat completion).
+- Works on any OS: Windows, macOS, Linux.
 
 ## Installation 📦
 
@@ -55,6 +68,11 @@ The plugin requires a HuggingFace access token to call the inference API.
 - A card will appear with grouped, one-sentence summaries per user.
 - Close the card with the `CLOSE [X]` link.
 
+### 💡 Pro Tips
+- You can change the summary prompt or model in the plugin code for custom results.
+- Works best with English, but you can experiment with other languages.
+- For large chats, select only the most relevant messages for best results.
+
 ## TODO 🗒️
 
 - [ ] Add auto-update notification
@@ -75,4 +93,4 @@ Use/copy/modify freely. No warranty. Plugin distributed as-is.
 
 ---
 
-*Created with ❤️ by **Nigel1992*
+*Created with ❤️ by **Nigel1992***
