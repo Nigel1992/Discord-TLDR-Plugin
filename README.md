@@ -7,6 +7,8 @@
 
 # Discord TL;DR 🚀
 
+[![Vibe Coded](https://img.shields.io/badge/Vibe_Coded-✨-8A2BE2?style=for-the-badge)](https://github.com)
+
 > ✨ A slick BetterDiscord plugin that turns long threads into instant summaries using the **Qwen‑2.5‑72B** model from HuggingFace.
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
